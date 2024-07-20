@@ -1,0 +1,15 @@
+---
+import Button from "../components/Button";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="About">
+  <main class="container min-w-80">
+    <div class="flex justify-center ">
+      <div>
+        <h1>About Page</h1>
+        <Button client:load/>
+      </div>
+    </div>
+  </main>
+</Layout>
